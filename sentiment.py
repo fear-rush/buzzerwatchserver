@@ -9,6 +9,8 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 from functions import twitter_access, twitter_api, tweets_fetching, text_cleaning, translator, sentiment_determination
 import os
+from dotenv import load_dotenv
+
 
 ###----###
 def sentiment(data):
